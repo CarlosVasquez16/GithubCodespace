@@ -11,5 +11,5 @@ steps:
   - script: |
       echo This codesace hostname:
       echo
-      echo SHOSTNAME
+      echo $HOSTNAME
     displayName: 'Run a multi-line script'
